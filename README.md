@@ -23,3 +23,4 @@ Or run
 Then select a peer by typing the number of it and pressing enter.
 Then drag and drop a file or folder into the cmdline window to paste the path of it.
 Then press enter in the cmdline window to send that file/folder.
+On the receiving end it'll be decompressed into a folder next to the python file called "received"
