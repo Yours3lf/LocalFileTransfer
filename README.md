@@ -8,6 +8,7 @@ This simple utility does the following:
 - Given a selected peer and a file/folder:
 - Compress it into a .tar.zst file using zstandard compression
 - Send over the compressed file using up to 32 TCP connections
+- Decompress on the other side back to the original files/folders
 
 ## Dependencies
 
