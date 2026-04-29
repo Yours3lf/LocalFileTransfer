@@ -29,3 +29,17 @@ Then drag and drop a file or folder into the cmdline window to paste the path of
 Then press enter in the cmdline window to send that file/folder.
 
 On the receiving end it'll be decompressed into a folder next to the python file called "received"
+
+## Max throughput settings for Intel Wi-Fi (Advanced Settings)
+
+- 802 a/b/g Wireless Mode:        5GHz 802.11a (don't use low throughput 2.4Ghz)
+- 802 n/ac/ax/be Wireless Mode:   802.11be (highest)
+- Channel Width for 2.4Ghz:       Auto
+- Channel Width for 5GHz:         Auto
+- Channel Width for 6Ghz:         Auto
+- Fat channel intolerant:         Disabled
+- Packet Coalescing:              Enabled
+- Preferred Band:                 Prefer 6GHz (highest)
+- Throughput booster:             Enabled (crucial for high throughput)
+- Transmit power:                 Highest
+- Ultra High Band (6GHz):         Enabled
